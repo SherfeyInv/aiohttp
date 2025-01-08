@@ -5,7 +5,7 @@
 #    pip-compile --allow-unsafe --output-file=requirements/lint.txt --strip-extras requirements/lint.in
 #
 aiodns==3.2.0
-    # via -r requirements/lint.in
+    # via -r lint.in
 annotated-types==0.7.0
     # via pydantic
 async-timeout==4.0.3
@@ -36,7 +36,7 @@ filelock==3.16.1
     #   pytest-codspeed
     #   virtualenv
 freezegun==1.5.1
-    # via -r requirements/lint.in
+    # via -r lint.in
 identify==2.6.1
     # via pre-commit
 idna==3.7
@@ -50,7 +50,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
     # via markdown-it-py
 mypy==1.13.0 ; implementation_name == "cpython"
-    # via -r requirements/lint.in
+    # via -r lint.in
 mypy-extensions==1.0.0
     # via mypy
 nodeenv==1.9.1
@@ -62,9 +62,9 @@ platformdirs==4.3.6
 pluggy==1.5.0
     # via pytest
 pre-commit==3.5.0
-    # via -r requirements/lint.in
+    # via -r lint.in
 proxy-py==2.4.9
-    # via -r requirements/lint.in
+    # via -r lint.in
 pycares==4.4.0
     # via aiodns
 pycparser==2.22
@@ -77,17 +77,17 @@ pygments==2.18.0
     # via rich
 pytest==8.1.1
     # via
-    #   -r requirements/lint.in
+    #   -r lint.in
     #   pytest-codspeed
     #   pytest-mock
-pytest-codspeed==3.0.0
-    # via -r requirements/lint.in
+pytest-codspeed==2.2.1
+    # via -r lint.in
 pytest-mock==3.14.0
-    # via -r requirements/lint.in
+    # via -r lint.in
 python-dateutil==2.9.0.post0
     # via freezegun
 python-on-whales==0.73.0
-    # via -r requirements/lint.in
+    # via -r lint.in
 pyyaml==6.0.2
     # via pre-commit
 requests==2.32.3
@@ -99,7 +99,7 @@ shellingham==1.5.4
 six==1.16.0
     # via python-dateutil
 slotscheck==0.19.1
-    # via -r requirements/lint.in
+    # via -r lint.in
 tomli==2.0.2
     # via
     #   mypy
@@ -108,7 +108,7 @@ tomli==2.0.2
 tqdm==4.66.5
     # via python-on-whales
 trustme==1.1.0
-    # via -r requirements/lint.in
+    # via -r lint.in
 typer==0.12.5
     # via python-on-whales
 typing-extensions==4.12.2
@@ -123,8 +123,8 @@ typing-extensions==4.12.2
 urllib3==2.2.3
     # via requests
 uvloop==0.21.0 ; platform_system != "Windows"
-    # via -r requirements/lint.in
+    # via -r lint.in
 valkey==6.0.2
-    # via -r requirements/lint.in
+    # via -r lint.in
 virtualenv==20.27.0
     # via pre-commit
