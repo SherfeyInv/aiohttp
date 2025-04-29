@@ -5,7 +5,7 @@
 #    pip-compile --allow-unsafe --output-file=requirements/doc-spelling.txt --strip-extras requirements/doc-spelling.in
 #
 aiohttp-theme==0.1.7
-    # via -r requirements/doc.in
+    # via -r doc.in
 alabaster==0.7.13
     # via sphinx
 babel==2.16.0
@@ -18,7 +18,7 @@ click==8.1.7
     # via towncrier
 docutils==0.20.1
     # via sphinx
-idna==3.6
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -28,7 +28,7 @@ importlib-resources==6.4.5
     # via towncrier
 incremental==24.7.2
     # via towncrier
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   sphinx
     #   towncrier
@@ -48,7 +48,7 @@ snowballstemmer==2.2.0
     # via sphinx
 sphinx==7.1.2
     # via
-    #   -r requirements/doc.in
+    #   -r doc.in
     #   sphinxcontrib-spelling
     #   sphinxcontrib-towncrier
 sphinxcontrib-applehelp==1.0.4
@@ -64,16 +64,16 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 sphinxcontrib-spelling==8.0.0 ; platform_system != "Windows"
-    # via -r requirements/doc-spelling.in
+    # via -r doc-spelling.in
 sphinxcontrib-towncrier==0.4.0a0
-    # via -r requirements/doc.in
+    # via -r doc.in
 tomli==2.0.2
     # via
     #   incremental
     #   towncrier
 towncrier==23.11.0
     # via
-    #   -r requirements/doc.in
+    #   -r doc.in
     #   sphinxcontrib-towncrier
 urllib3==2.2.3
     # via requests
